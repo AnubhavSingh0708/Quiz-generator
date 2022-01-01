@@ -1,0 +1,66 @@
+body{
+    background-image: linear-gradient(225deg,rgb(232, 238, 230) 10%,#d8e0d5 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Zilla Slab', serif;
+font-size: large;
+}
+.nav {
+    font-family: 'Varela Round', sans-serif;
+display: inline-block;
+background-color: #ffffffc0;
+position: fixed;
+box-shadow: #393b3770 1px 1px 10px;
+width: 100%;
+font-size: 30px;
+color: rgb(71, 179, 0);
+line-height: 60px;
+top:0%;
+left: 0%;
+}
+*{
+transition: all 0.5s;
+scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Varela Round', sans-serif;
+    background-size: 100% 100%;
+    background:  -webkit-linear-gradient(150deg,#0078b5 20%,#4CAF50 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    padding-left: 50px;
+    padding-top: 50px;
+font-size: 100px;   
+}
+button {
+    background-size: 100% 100%;
+    background:  -webkit-linear-gradient(150deg,#0078b5 20%,#4CAF50 80%);
+    background-origin: border-box;
+padding:10px;
+border-radius: 27px;
+box-shadow: #00000050 0px 0px 5px;
+font-family: 'Zilla Slab', serif;
+    -webkit-background-clip:text;
+    background-clip: text;
+    font-size:x-large;
+    -webkit-text-fill-color: white;
+}
+.search{
+width: 99%;
+line-height: 30px;
+padding: 0%;
+padding-left: 20px;
+padding-right: 10px;
+font-size: large;
+border-radius: 48px;
+}
+.search::before{
+    content:"🔍";
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 105;
+}
