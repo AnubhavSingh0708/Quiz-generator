@@ -1,6 +1,7 @@
 var qb= database;
 var topics=qb[0].topics;
 var ltop;
+var stopic;
 ltop=Object.getOwnPropertyNames((topics[0]));
 function findTex(){
 document.getElementById("result").innerHTML="";
@@ -10,7 +11,7 @@ for (let i = 0; i < ltop.length; i++) {
 var pos=ltop[i].search(input);
 if (pos<0){
 } else {
-document.getElementById("result").innerHTML+=ltop[i]+"<bR>";
+document.getElementById("result").innerHTML+="<div onclick='stopic+="+ltop[i]+"'>"+ltop[i];+"</div"+"<bR>";
 }
 }
 }
